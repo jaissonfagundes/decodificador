@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <script src="apps.js" defer></script> 
+    <link rel="stylesheet" href="style.css" ></style>
+    <link rel="icon" type="image/gif" href="img/favicon.gif"/>
+</head>
+<body>
+    <main>
+        <container class="main">
+            <h1 class="titulo">Digite uma mensagem para Criptografar ou Descriptografar</h1>
+            <div class="caixasdetexto">
+                <textarea name="entrada" id="entrada" cols="50" rows="10" class="entrada" placeholder="Apenas letras minúsculas e sem acento"></textarea>
+                <textarea name="saida" id="saida" cols="50" rows="10" class="saida" placeholder="Nehuma mensagem encontradda"></textarea>
+            </div>
+            <div class="botoes">
+                <button class="botaoCriptografar" onclick="criptografar()">Criptografar</button>
+                <button class="botaoDescriptografar" onclick="descriptografar()">Descriptografar</button>
+                <button class="botaoCopiar" id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="glowing">
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div>       
+    </main>
+</body>
+<footer class="footer">Criado por Jaisson Fagundes | Programa ONE</footer>
+</html> 
